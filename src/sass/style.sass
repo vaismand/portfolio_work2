@@ -1,7 +1,8 @@
 *
     font-family: 'Roboto', sans-serif
 .container
-    margin: 0 auto  
+    margin: 0 auto 
+    padding: 0 
 footer 
     padding: 20px 10px 16px 10px
     .countries_list
@@ -20,4 +21,77 @@ footer
                 span 
                     font-size: 14px
                     font-weight: 700
+.main 
+    position: relative
+    min-height: 700px
+    background: url("../img/bg1.jpg") center center/cover no-repeat
+    padding-top: 39px
+    nav
+        display: flex
+        justify-content: space-between
+        .menu
+            ul
+                display: flex
+                justify-content: space-between 
+                width: 540px
+                padding: 0
+                margin-top: 25px
+                a 
+                    color: #ffffff
+                    font-size: 13px
+                    font-weight: 700
+                    line-height: 26px
+                    text-transform: uppercase
+                    text-decoration: none
+    &_descr
+        display: flex
+        justify-content: space-between
+        .titles
+            margin-top: 133px
+            h1 
+                color: #ffffff
+                font-size: 42px
+                font-weight: 400
+                line-height: 48px
+                margin-bottom: 27px
+            h2 
+                color: #ffffff
+                font-size: 24px
+                font-weight: 300
+                line-height: 30px
+                margin-bottom: 39px
+                span 
+                    font-weight: 400
+            button 
+                width: 241px
+                height: 60px
+                box-shadow: 0 0 7px rgba(0, 0, 0, 0.07)
+                background-color: #00c2f0
+                color: #ffffff
+                font-size: 16px
+                font-weight: 700
+                line-height: 30px
+                border: none
+                text-transform: uppercase
+        .phones   
+            margin-top: 24px 
+.with_plengi
+    min-height: 700px
+    padding: 80px 10px
+    &_list
+        display: flex
+        justify-content: space-between
+        &_item 
+            width: 360px
+            height: 255px
+            border: 1px solid #ececec
+            img 
+                display: block
+                margin: 0 auto
+            .descr
+                color: #393939
+                font-size: 18px
+                font-weight: 300
+                line-height: 26px
+                text-align: center
     
