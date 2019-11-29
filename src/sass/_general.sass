@@ -69,7 +69,7 @@ header
         .phones   
             position: absolute
             bottom: 0%
-            right: 20%
+            right: 10%
 .with_plengi
     min-height: 700px
     padding: 80px 10px
@@ -148,23 +148,25 @@ header
     &_carousel
         position: relative
         background: url("../icons/macbook-air.png") center center/contain no-repeat
-        min-height: 600px
+        padding: 1% 11%
+        padding-bottom: 4%
         &_list
-            width: 70%             
-            height: 60%
-            display: block
+            margin: 0 auto
+            img 
+                margin: 0 auto
+                padding: 1%
         .slick-slide
             width: 700px
-            .slick-prev, .slick-next  
-                position: absolute
-                top: 50%
-                transform: translateY(-50%)
-                left: -66px
-                border: none
-                background-color: #ffffff00
-            .slick-next  
-                right: -16px
-                left: auto
+        .slick-prev, .slick-next  
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            left: -66px
+            border: none
+            background-color: #ffffff00
+        .slick-next  
+            right: -66px
+            left: auto
 
 
 .benefits
@@ -185,7 +187,7 @@ header
             position: relative
             img
                 display: block 
-                width: auto 
+                width: 100%
                 height: auto
             .img_descr
                 position: absolute
@@ -240,7 +242,6 @@ header
                 font-weight: 300
                 line-height: 26px
 .contact
-    min-height: 690px
     padding: 80px 10px 80px 10px
     img 
         display: block
