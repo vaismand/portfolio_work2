@@ -1,8 +1,116 @@
-@media screen and ( max-width: 769px )
-    .main          
-        h1
-            font-size: 30px 
-        .phones
-             height: 30%
-             width: 40%
-             margin-top: 220px
+@media ( max-width: 769px )
+    header
+        padding-top: 15px
+    .main 
+        min-height: 600px
+        &_descr
+            max-width: 400px
+            h1 
+                font-size: 30px
+            h2 
+                font-size: 20px
+            .phones 
+                width: 300px
+                height: 400px
+                right: 0%
+    .modals 
+        min-height: 689px
+        &_list 
+            width: 640px
+            height: 90px
+            a 
+                font-size: 11px
+        &_carousel 
+            margin-left: 0
+            .slick-slide
+                img 
+                    width: 550px 
+                    height: 350px
+    .variables
+        &_list
+            &_left 
+                width: 300px
+            &_right 
+                width: 300px
+    footer
+        .footer_list
+            h1 
+                font-size: 12px
+            .footer_descr
+                font-size: 10px
+@media ( max-width: 500px )
+    .main
+        min-height: 400px
+        nav 
+            img 
+                width: 60px
+                height: 30px
+            .menu
+                margin-top: 5px
+                width: 300px
+                a  
+                    font-size: 9px 
+        &_descr 
+            max-width: 200px
+            margin-top: 90px
+            h1 
+                font-size: 18px
+                line-height: 38px
+                margin-bottom: 20px
+            h2 
+                font-size: 14px
+                margin-bottom: 20px
+            button 
+                width: 130px
+                height: 40px
+                font-size: 12px
+                margin-bottom: 10px
+            .phones
+                width: 180px
+                height: 240px 
+    .with_plengi
+        &_list
+            flex-direction: column
+            align-items: center
+            &:nth-child(2)
+                margin-bottom: 0    
+            &_item
+                margin-bottom: 15px
+        h1 
+            font-size: 30px
+    .modals
+        &_list
+            width: 300px
+            min-height: 200px
+            flex-wrap: wrap
+            a 
+                border-right: none
+        &_carousel
+            min-height: 250px
+            .slick-slide
+                img 
+                    width: 270px
+                    height: 170px
+    .variables
+        h1 
+            font-size: 24px
+            margin-bottom: 60px
+        &_list
+            &_left 
+                width: 150px
+                text-align: left
+                h2 
+                    font-size: 20px
+                h3 
+                    font-size: 14px
+            &_right 
+                width: 150px
+                text-align: right
+                h2 
+                    font-size: 20px
+                h3 
+                    font-size: 14px
+    footer 
+        padding: 20px 10px 20px 10px
+
+    

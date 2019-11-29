@@ -21,7 +21,7 @@ header
     position: relative
     min-height: 700px
     background: url("../img/bg1.jpg") center center/cover no-repeat
-    padding-top: 39px
+    padding: 39px 10px 0 10px
     nav
         display: flex
         justify-content: space-between
@@ -39,44 +39,43 @@ header
                 text-transform: uppercase
                 text-decoration: none
     &_descr
-        display: flex
-        justify-content: space-between
-        .titles
-            margin-top: 133px
-            h1 
-                color: #ffffff
-                font-size: 42px
+        max-width: 500px
+        margin-top: 133px
+        h1 
+            color: #ffffff
+            font-size: 42px
+            font-weight: 400
+            line-height: 48px
+            margin-bottom: 27px
+        h2 
+            color: #ffffff
+            font-size: 24px
+            font-weight: 300
+            line-height: 30px
+            margin-bottom: 39px
+            span 
                 font-weight: 400
-                line-height: 48px
-                margin-bottom: 27px
-            h2 
-                color: #ffffff
-                font-size: 24px
-                font-weight: 300
-                line-height: 30px
-                margin-bottom: 39px
-                span 
-                    font-weight: 400
-            button 
-                width: 241px
-                height: 60px
-                box-shadow: 0 0 7px rgba(0, 0, 0, 0.07)
-                background-color: #00c2f0
-                color: #ffffff
-                font-size: 16px
-                font-weight: 700
-                line-height: 30px
-                border: none
-                text-transform: uppercase
+        button 
+            width: 241px
+            height: 60px
+            box-shadow: 0 0 7px rgba(0, 0, 0, 0.07)
+            background-color: #00c2f0
+            color: #ffffff
+            font-size: 16px
+            font-weight: 700
+            line-height: 30px
+            border: none
+            text-transform: uppercase
         .phones   
-            margin-top: 25px 
+            position: absolute
+            bottom: 0%
+            right: 20%
 .with_plengi
     min-height: 700px
     padding: 80px 10px
     &_list
         display: flex
         justify-content: space-between
-        margin-bottom: 50px
         &_item 
             position: relative
             width: 360px
@@ -103,6 +102,7 @@ header
         display: block
         margin: 0 auto
         margin-bottom: 33px
+        margin-top: 50px
     h1 
         color: #393939
         font-size: 48px
@@ -200,10 +200,11 @@ header
                 text-align: center
                 top: 43%
                 left: 20%
+                right: 20%
 .variables
     min-height: 580px
     background: url("../img/bg3.jpg") center center/cover no-repeat
-    padding-top: 79px
+    padding: 79px 10px 0px 10px
     h1 
         color: #ffffff
         font-size: 30px
