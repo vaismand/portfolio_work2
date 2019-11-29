@@ -114,7 +114,7 @@ header
 .modals 
     min-height: 889px
     background: url("../img/bg2.jpg") center center/cover no-repeat
-    padding: 79px 10px 61px 10px
+    padding: 79px 10px 0 10px
     h1 
         color: #ffffff
         font-size: 30px
@@ -147,27 +147,24 @@ header
             color: #00c2f0
     &_carousel
         position: relative
-        background-image: url("../icons/macbook-air.png") 
-        background-repeat: no-repeat
-        background-size: contain
-        margin-left: 60px
+        background: url("../icons/macbook-air.png") center center/contain no-repeat
         min-height: 600px
-        padding-left: 11.5%
-        padding-top: 3%
+        &_list
+            width: 70%             
+            height: 60%
+            display: block
         .slick-slide
-            img
-                width: 750px
-                height: 475px
-        .slick-prev, .slick-next  
-            position: absolute
-            top: 50%
-            transform: translateY(-50%)
-            left: -66px
-            border: none
-            background-color: #ffffff00
-        .slick-next  
-            right: -16px
-            left: auto
+            width: 700px
+            .slick-prev, .slick-next  
+                position: absolute
+                top: 50%
+                transform: translateY(-50%)
+                left: -66px
+                border: none
+                background-color: #ffffff00
+            .slick-next  
+                right: -16px
+                left: auto
 
 
 .benefits

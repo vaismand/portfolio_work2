@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.modals_carousel').slick({
+    $('.modals_carousel_list').slick({
         dots: false,
         arrows: true,
         infinite: true,
